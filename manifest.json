@@ -1,0 +1,11 @@
+{
+  "name": "GitHub - Next Issue Button",
+  "description": "Adds a next button to GitHub issues",
+  "version": "0.0",
+  "content_scripts": [{
+    "matches": ["*://github.com/*/*/issues/*"],
+    "all_frames": true,
+    "js": ["index.js"]
+  }],
+  "manifest_version": 2
+}
