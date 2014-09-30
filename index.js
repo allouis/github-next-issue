@@ -12,7 +12,7 @@ function goToNextIssue () {
 }
  
 if (window.location.search.indexOf('fromNextButton') !== -1) {
-  if (document.querySelectorAll('.state.state-open').length === 0) {
+  if (document.querySelectorAll('.gh-header-meta .state.state-open').length === 0) {
     goToNextIssue();
   }
 }
